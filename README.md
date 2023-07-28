@@ -91,6 +91,7 @@ npm start
 The API should now be running on 'http://localhost:5000'
 ### Please ensure that you have Node.js and npm installed on your machine before running the API locally.
 
+you can access code from master branch
 If you encounter any issues while running the API, feel free to contact me at 
 oky.b20@mhs.unsyiah.ac.id
 
