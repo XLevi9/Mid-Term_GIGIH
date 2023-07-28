@@ -81,17 +81,17 @@ Mid Term Project (Backend Only) Oky Askal
 To run the API locally on your machine, follow these steps:
 
 ### Clone the repository:
-git clone https://github.com/XLevi9/Mid-Term_GIGIH.git
-cd Mid-Term_GIGIH
+- git clone https://github.com/XLevi9/Mid-Term_GIGIH.git
+- cd Mid-Term_GIGIH
 ### Install the dependencies:
-npm install
+- npm install
 ### Set up your database (if required).
 ### Start the server:
-npm start
-The API should now be running on 'http://localhost:5000'
+- npm start
+- The API should now be running on 'http://localhost:5000'
 ### Please ensure that you have Node.js and npm installed on your machine before running the API locally.
 
-you can access code from master branch
+#### you can access code from master branch
 If you encounter any issues while running the API, feel free to contact me at 
 oky.b20@mhs.unsyiah.ac.id
 
