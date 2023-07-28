@@ -48,34 +48,34 @@ Mid Term Project (Backend Only) Oky Askal
 ### Video API
 #### GET All Videos
 - Endpoint: '/videos'
-- Deskripsi: Mengambil semua data video dari koleksi "Video".
-- Response: JSON array berisi data-video.
+- Description: Retrieve all video data from the "Video" collection.
+- Response: JSON array containing video data.
 
 #### GET Single Video
 - Endpoint: '/videos/:id'
-- Deskripsi: Mengambil data video berdasarkan ID yang diberikan.
-- Parameter: 'id' (ID video yang ingin diambil).
-- Response: JSON objek berisi data video.
+- Description: Retrieve video data based on the given ID.
+- Parameter: 'id' (ID of the video to be retrieved).
+- Response: JSON object containing video data
 
 ### Comment API
 #### GET Comments by Video ID
 - Endpoint: '/comments/:videoId'
-- Deskripsi: Mengambil semua komentar yang terkait dengan video tertentu.
-- Parameter: 'videoId' (ID video yang ingin dilihat komentarnya).
-- Response: JSON array berisi data komentar.
+- Description: Retrieve all comments related to a specific video.
+- Parameter: 'videoId' (ID of the video to view its comments).
+- Response: JSON array containing comment data
 
 #### POST Add Comment
 - Endpoint: '/comments'
-- Deskripsi: Menambahkan komentar baru ke koleksi "Comment".
-- Request: JSON objek dengan atribut 'name', 'comment', dan 'videoId'.
-- Response: JSON objek berisi data komentar yang baru ditambahkan.
+- Description: Add a new comment to the "Comment" collection.
+- Request: JSON object with attributes 'name', 'comment', and 'videoId'.
+- Response: JSON object containing the newly added comment data.
 
 ### Product API
 #### GET Products by Video ID
 - Endpoint: '/products/:videoId'
-- Deskripsi: Mengambil semua produk yang terkait dengan video tertentu.
-- Parameter: 'videoId'(ID video yang ingin dilihat produknya).
-- Response: JSON array berisi data produk.
+- Description: Retrieve all products related to a specific video.
+- Parameter: 'videoId' (ID of the video to view its products).
+- Response: JSON array containing product data.
 
 ## HOW TO RUN in Local
 To run the API locally on your machine, follow these steps:
